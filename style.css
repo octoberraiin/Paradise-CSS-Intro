@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    box-sizing: border-box;
+    background-image: url("https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    height: 500px;
+    padding: 200px;
+}
+
+header h1 {
+    background-color: white;
+    opacity: 0.75;
+    color: black;
+    text-align: center;
+    padding: 10px 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 3rem;
+    transition: 1s;
+}
+
+header h1:hover {
+    opacity: 1;
+    background-color: rgb(40, 40, 40);
+    color: #B6D0E2;
+    border: 2px solid #B6D0E2;
+    transition: 1s;
+}
+
+main {
+    padding-top: 50px;
+    height: 500px;
+    background-color: rgb(44, 44, 44);
+    color: rgb(160, 160, 160);
+    opacity: 25%;
+    transition: 1s;
+}
+
+main:hover {
+    background-color: rgb(44, 44, 44);
+    color: rgb(160, 160, 160);
+    transition: 1s;
+    opacity: 1;
+}
+
+.what, .who, .get {
+    margin-bottom: 70px;
+    text-align: center;
+    margin: 0px 60px 70px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.divider1, .divider2 {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    height: 300px;
+    background-color: rgb(191, 191, 191);
+    padding-top: 50px;
+    color: rgb(19, 19, 19);
+    opacity: 25%;
+    transition: 1s;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+}
+
+form {
+    text-align: center;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 20px; 
+    border: none;
+    font-size: 15px;
+    width: 20rem;
+}
+
+.input-email {
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+    margin-left: 35%;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.submit-button:hover {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    transition: 1s;
+}
+
+footer:hover {
+    transition: 1s;
+    opacity: 1;
+    height: 300px;
+    background-color: rgb(191, 191, 191);
+    color: rgb(19, 19, 19);
+}
+
+footer p {
+    margin: 5rem 0.1rem;
+    text-align: center;
+}
